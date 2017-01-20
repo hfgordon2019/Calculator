@@ -43,6 +43,7 @@ def divide(num1,num2):
         num1 = sub(num1,num2);
         result = result +1 
     if num1<0 :
+        num1 = add(num1,num2);
         result = result -1
     print (num1) 
     return result 
